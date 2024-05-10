@@ -1,0 +1,43 @@
+body {
+    background-color: black; /* Set the background color of the body to black */
+    color: white; /* Set the text color to white */
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items at the start of the flex container */
+}
+
+.brand {
+    width: 100%; /* Set the width to 100% to take full container width */
+    margin-bottom: 20px; /* Add some space between brand sections */
+}
+
+.brand h2 {
+    text-align: center; /* Center the brand name */
+    margin-bottom: 10px; /* Add space below the brand name */
+}
+
+.brand img {
+    width: 250px;
+    margin: 10px;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: red;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}

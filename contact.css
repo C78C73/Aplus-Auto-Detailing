@@ -1,0 +1,40 @@
+/* contact.css */
+
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+}
+
+.header {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.content {
+    max-height: 500px; /* Set the maximum height for the content */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.info {
+    font-size: 25px;
+    padding: 20px; /* Add padding to the content */
+}
+
+.centered {
+    text-align: center;
+}

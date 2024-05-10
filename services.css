@@ -1,0 +1,32 @@
+/* services.css */
+
+body {
+    background-color: #000000;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    background-color: #000000;
+    text-align: center;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+.service {
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

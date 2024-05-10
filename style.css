@@ -1,0 +1,26 @@
+body {
+    font-family: 'Serif', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Set body background to transparent */
+}
+
+header {
+    background-color: red;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
