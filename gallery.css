@@ -1,37 +1,22 @@
 body {
-    background-color: black; /* Set the background color of the body to black */
-    color: white; /* Set the text color to white */
+    background-color: white; /* Set the background color of the body to white */
+    color: black; /* Set the text color to black */
     margin: 0;
-    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.gallery {
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #999999;
+    margin: 50px auto;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start; /* Align items at the start of the flex container */
-}
-
-.brand {
-    width: 100%; /* Set the width to 100% to take full container width */
-    margin-bottom: 20px; /* Add some space between brand sections */
-}
-
-.brand h2 {
-    text-align: center; /* Center the brand name */
-    margin-bottom: 10px; /* Add space below the brand name */
-}
-
-.brand img {
-    width: 250px;
-    margin: 10px;
-    border: 5px solid red;
     border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 nav {
-    background-color: red;
+    background-color: transparent; /* Make nav background transparent */
     text-align: center;
     padding: 10px 0;
 }
@@ -39,5 +24,48 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 0 20px;
+    display: inline-block;
+    border-radius: 30%; /* Make each nav link a circle */
+    background-color: red; /* Set the circle color */
+    width: 100px; /* Set the width of each circle */
+    height: 40px; /* Set the height of each circle */
+    line-height: 40px; /* Center the text vertically */
+    margin: 0 10px; /* Adjust spacing between circles */
+}
+
+
+.header {
+    color: white;
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px; /* Adds a red circle around the header */
+    margin-bottom: 20px; /* Adds space below the header */
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.brand {
+    margin: 20px;
+    padding: 20px;
+    background-color: #666666; /* Dark grey background for each brand */
+    border-radius: 10px;
+    flex: 1 1 25%; /* Adjust the width of each brand box */
+}
+
+.brand h2 {
+    color: white; /* Set the text color of brand headings to white */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.brand img {
+    width: 100%; /* Make images fill their containers */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space between images */
 }

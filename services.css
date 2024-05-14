@@ -1,31 +1,70 @@
-/* services.css */
-
 body {
-    background-color: #000000;
+    background-color: white;
     color: white;
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #999999;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 nav {
-    background-color: #000000;
+    background-color: transparent; /* Make nav background transparent */
     text-align: center;
-    padding: 10px 0; /* Adjust padding as needed */
+    padding: 10px 0;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    padding: 0 20px;
+    display: inline-block;
+    border-radius: 30%; /* Make each nav link a circle */
+    background-color: red; /* Set the circle color */
+    width: 100px; /* Set the width of each circle */
+    height: 40px; /* Set the height of each circle */
+    line-height: 40px; /* Center the text vertically */
+    margin: 0 10px; /* Adjust spacing between circles */
 }
 
+
 .header {
+    color: white;
     background-color: red;
     padding: 20px;
     text-align: center;
+    border-radius: 50px; /* Adds a red circle around the header */
+    margin-bottom: 20px; /* Adds space below the header */
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #666666;
+    border-radius: 10px;
+}
+
+.section h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .service {
-    font-size: 35px;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;

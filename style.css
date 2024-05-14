@@ -3,17 +3,33 @@ body {
     color: white;
     margin: 0;
     padding: 0;
-    background-color: black; /* Set body background to transparent */
+    background-color: #ffffff; /* Set body background to white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the body fills the viewport */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #999999; /* Grey background for the container */
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Box shadow for the container */
 }
 
 header {
-    background-color: red;
+    background-color: red; /* Red background for the header */
     text-align: center;
     padding: 10px 0;
+    font-family: 'Courier New', Courier, monospace; /* Basic retro font */
+    font-size: 25px;
 }
 
 nav {
-    background-color: black;
+    background-color: transparent; /* Make nav background transparent */
     text-align: center;
     padding: 10px 0;
 }
@@ -21,6 +37,12 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 0 20px;
+    display: inline-block;
+    border-radius: 20%; /* Make each nav link a circle */
+    background-color: red; /* Set the circle color */
+    width: 100px; /* Set the width of each circle */
+    height: 60px; /* Set the height of each circle */
+    line-height: 60px; /* Center the text vertically */
+    margin: 0 10px; /* Adjust spacing between circles */
+    font-size: 25px; /* Set the font size */
 }
-
